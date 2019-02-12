@@ -1,13 +1,13 @@
-**Elixirconf people: the build is broken 🙃, tagging a fixed release soon**
+**This project is on indefinite hold and has no working release, but I hope that it might get you thinking about how to use Elixir for big data work often done in other languages/frameworks**
 
 # Edgelixir
-[![Build Status](https://travis-ci.org/nlap/edgelixir.svg?branch=master)](https://travis-ci.org/nlap/edgelixir) [![Coverage Status](https://coveralls.io/repos/github/nlap/edgelixir/badge.svg?branch=master)](https://coveralls.io/github/nlap/edgelixir?branch=master) [![Deps Status](https://beta.hexfaktor.org/badge/all/github/nlap/edgelixir.svg)](https://beta.hexfaktor.org/github/nlap/edgelixir)
+[![Build Status](https://travis-ci.org/nlap/edgelixir.svg?branch=master)](https://travis-ci.org/nlap/edgelixir) [![Coverage Status](https://coveralls.io/repos/github/nlap/edgelixir/badge.svg?branch=master)](https://coveralls.io/github/nlap/edgelixir?branch=master)
 
 Edgelixir is a Pregel-like distributed graph processing package implemented in Elixir.
 
 ## Background
 
-I started Edgelixir to help me learn and explore the strengths of Elixir and Erlang OTP for distributed, "big data" systems. See my [ElixirConf 16 slides](https://edgelixir.net/elixirconf16.pdf). 
+I started Edgelixir to help me learn and explore the strengths of Elixir and Erlang OTP for distributed, "big data" systems.
 
 You can use this package to write distributed (or single machine) graph algorithms in the Pregel "think-like-a-vertex" model. Check out [their paper](https://scholar.google.ca/scholar?cluster=14900533813349353491&hl=en&as_sdt=0,5), or [here](https://blog.acolyer.org/2015/05/26/pregel-a-system-for-large-scale-graph-processing/) to learn about Pregel.
 
@@ -19,9 +19,6 @@ This project tries to implement Pregel concisely in Elixir, emphasizing:
 **Early exploratory work**. If you need a production-ready, scalable graph system right away, go for Giraph, GraphX, GraphLab, etc.
 
 Open to feedback and pull requests from everyone!
-
-## Docs
-[Full documentation is on HexDocs](https://hexdocs.pm/edgelixir/)
 
 ## Installation
 
